@@ -8,9 +8,9 @@ while True:
 
     if guess < number:
         print('Your number is less than guessed')
-    if guess > number:
+    elif guess > number:
         print('Your number is greater than guessed')
-    if guess == number:
+    elif guess == number:
         break
 
 print('You\'ve got a great intuition, you\'ve guessed the number')
